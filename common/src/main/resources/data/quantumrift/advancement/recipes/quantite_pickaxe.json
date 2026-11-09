@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_quantite_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "quantumrift:quantite_ingot"
+          }
+        ]
+      }
+    },
+    "has_stick": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stick"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "quantumrift:quantite_pickaxe"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_quantite_ingot",
+      "has_stick"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "quantumrift:quantite_pickaxe"
+    ]
+  }
+}

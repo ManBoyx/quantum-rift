@@ -1,0 +1,36 @@
+{
+    "schemaVersion": 1,
+    "id": "${mod_id}",
+    "version": "${version}",
+    "name": "${mod_name}",
+    "description": "${description}",
+    "authors": [
+        "${mod_author}"
+    ],
+    "license": "${license}",
+    "environment": "*",
+    "accessWidener": "quantumrift.accesswidener",
+    "entrypoints": {
+        "main": [
+            "com.quantumrift.QuantumRift"
+        ],
+        "client": [
+            "com.quantumrift.QuantumRiftClient"
+        ],
+        "terrablender": [
+            "com.quantumrift.QuantumRiftTerraBlender"
+        ]
+    },
+    "mixins": [
+        "${mod_id}.mixins.json",
+        "${mod_id}.fabric.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=${fabric_loader_version}",
+        "fabric-api": "*",
+        "terrablender": "*",
+        "minecraft": "${minecraft_version}",
+        "java": ">=${java_version}"
+    }
+}
+  

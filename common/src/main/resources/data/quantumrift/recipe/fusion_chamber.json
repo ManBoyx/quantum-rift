@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OSO",
+    "QNQ",
+    "OQO"
+  ],
+  "key": {
+    "O": {
+      "item": "quantumrift:omnium_ingot"
+    },
+    "S": {
+      "item": "quantumrift:singularity_ingot"
+    },
+    "Q": {
+      "item": "quantumrift:quantite_block"
+    },
+    "N": {
+      "item": "minecraft:netherite_block"
+    }
+  },
+  "result": {
+    "id": "quantumrift:fusion_chamber",
+    "count": 1
+  }
+}

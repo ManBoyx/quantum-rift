@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_singularity_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "quantumrift:singularity_block"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "quantumrift:singularity_ingot_from_singularity_block"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_singularity_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "quantumrift:singularity_ingot_from_singularity_block"
+    ]
+  }
+}

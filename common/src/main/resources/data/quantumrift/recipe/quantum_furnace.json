@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "QQQ",
+    "QFQ",
+    "QOQ"
+  ],
+  "key": {
+    "Q": {
+      "item": "quantumrift:quantite_ingot"
+    },
+    "F": {
+      "item": "minecraft:furnace"
+    },
+    "O": {
+      "item": "quantumrift:omnium_ingot"
+    }
+  },
+  "result": {
+    "id": "quantumrift:quantum_furnace",
+    "count": 1
+  }
+}

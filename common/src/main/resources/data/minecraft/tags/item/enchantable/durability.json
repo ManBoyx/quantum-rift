@@ -1,0 +1,32 @@
+{
+  "replace": false,
+  "values": [
+    "quantumrift:quantite_helmet",
+    "quantumrift:singularity_helmet",
+    "quantumrift:prismatic_helmet",
+    "quantumrift:quantite_chestplate",
+    "quantumrift:singularity_chestplate",
+    "quantumrift:prismatic_chestplate",
+    "quantumrift:quantite_leggings",
+    "quantumrift:singularity_leggings",
+    "quantumrift:prismatic_leggings",
+    "quantumrift:quantite_boots",
+    "quantumrift:singularity_boots",
+    "quantumrift:prismatic_boots",
+    "quantumrift:quantite_sword",
+    "quantumrift:singularity_sword",
+    "quantumrift:prismatic_sword",
+    "quantumrift:quantite_pickaxe",
+    "quantumrift:singularity_pickaxe",
+    "quantumrift:prismatic_pickaxe",
+    "quantumrift:quantite_axe",
+    "quantumrift:singularity_axe",
+    "quantumrift:prismatic_axe",
+    "quantumrift:quantite_shovel",
+    "quantumrift:singularity_shovel",
+    "quantumrift:prismatic_shovel",
+    "quantumrift:quantite_hoe",
+    "quantumrift:singularity_hoe",
+    "quantumrift:prismatic_hoe"
+  ]
+}

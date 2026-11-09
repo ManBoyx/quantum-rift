@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_netherite_scrap": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_scrap"
+          }
+        ]
+      }
+    },
+    "has_upgrade_module_core": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "quantumrift:upgrade_module_core"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "quantumrift:netherite_upgrade_module"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_netherite_scrap",
+      "has_upgrade_module_core"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "quantumrift:netherite_upgrade_module"
+    ]
+  }
+}

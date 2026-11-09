@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "quantumrift:singularity_shard"
+    },
+    {
+      "item": "quantumrift:singularity_shard"
+    },
+    {
+      "item": "quantumrift:singularity_shard"
+    },
+    {
+      "item": "quantumrift:singularity_shard"
+    },
+    {
+      "item": "minecraft:netherite_ingot"
+    }
+  ],
+  "result": {
+    "id": "quantumrift:singularity_ingot"
+  }
+}

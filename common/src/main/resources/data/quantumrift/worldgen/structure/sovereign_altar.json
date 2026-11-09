@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "#quantumrift:has_structure/sovereign_altar",
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "start_pool": "quantumrift:sovereign_altar/start",
+  "size": 1,
+  "max_distance_from_center": 30,
+  "use_expansion_hack": false,
+  "terrain_adaptation": "none",
+  "start_height": {
+    "absolute": 90
+  }
+}

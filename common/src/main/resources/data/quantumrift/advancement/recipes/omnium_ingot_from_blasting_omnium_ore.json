@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_omnium_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "quantumrift:omnium_ore"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "quantumrift:omnium_ingot_from_blasting_omnium_ore"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_omnium_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "quantumrift:omnium_ingot_from_blasting_omnium_ore"
+    ]
+  }
+}

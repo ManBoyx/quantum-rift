@@ -1,0 +1,862 @@
+{
+  "mob.phase_wraith.ambient": {
+    "sounds": [
+      {
+        "name": "quantumrift:mob/mob_phase_wraith_ambient",
+        "pitch": 0.8,
+        "volume": 0.9
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.mob.phase_wraith.ambient"
+  },
+  "mob.phase_wraith.hurt": {
+    "sounds": [
+      {
+        "name": "quantumrift:mob/mob_phase_wraith_hurt",
+        "pitch": 1.1,
+        "volume": 1.0
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.mob.phase_wraith.hurt"
+  },
+  "mob.phase_wraith.death": {
+    "sounds": [
+      {
+        "name": "quantumrift:mob/mob_phase_wraith_death",
+        "pitch": 0.7,
+        "volume": 1.0
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.mob.phase_wraith.death"
+  },
+  "mob.quantum_stalker.ambient": {
+    "sounds": [
+      {
+        "name": "quantumrift:mob/mob_quantum_stalker_ambient",
+        "pitch": 0.7,
+        "volume": 0.9
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.mob.quantum_stalker.ambient"
+  },
+  "mob.quantum_stalker.hurt": {
+    "sounds": [
+      {
+        "name": "quantumrift:mob/mob_quantum_stalker_hurt",
+        "pitch": 0.8,
+        "volume": 1.0
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.mob.quantum_stalker.hurt"
+  },
+  "mob.quantum_stalker.death": {
+    "sounds": [
+      {
+        "name": "quantumrift:mob/mob_quantum_stalker_death",
+        "pitch": 0.6,
+        "volume": 1.0
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.mob.quantum_stalker.death"
+  },
+  "mob.entropy_crawler.ambient": {
+    "sounds": [
+      {
+        "name": "quantumrift:mob/mob_entropy_crawler_ambient",
+        "pitch": 0.8,
+        "volume": 0.8
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.mob.entropy_crawler.ambient"
+  },
+  "mob.entropy_crawler.hurt": {
+    "sounds": [
+      {
+        "name": "quantumrift:mob/mob_entropy_crawler_hurt",
+        "pitch": 0.9,
+        "volume": 1.0
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.mob.entropy_crawler.hurt"
+  },
+  "mob.entropy_crawler.death": {
+    "sounds": [
+      {
+        "name": "quantumrift:mob/mob_entropy_crawler_death",
+        "pitch": 0.7,
+        "volume": 1.0
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.mob.entropy_crawler.death"
+  },
+  "mob.void_jelly.ambient": {
+    "sounds": [
+      {
+        "name": "quantumrift:mob/mob_void_jelly_ambient",
+        "pitch": 0.7,
+        "volume": 0.8
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.mob.void_jelly.ambient"
+  },
+  "mob.void_jelly.hurt": {
+    "sounds": [
+      {
+        "name": "quantumrift:mob/mob_void_jelly_hurt",
+        "pitch": 0.8,
+        "volume": 1.0
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.mob.void_jelly.hurt"
+  },
+  "mob.void_jelly.death": {
+    "sounds": [
+      {
+        "name": "quantumrift:mob/mob_void_jelly_death",
+        "pitch": 0.6,
+        "volume": 1.0
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.mob.void_jelly.death"
+  },
+  "mob.singularity_behemoth.ambient": {
+    "sounds": [
+      {
+        "name": "quantumrift:mob/mob_singularity_behemoth_ambient",
+        "pitch": 0.55,
+        "volume": 1.0
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.mob.singularity_behemoth.ambient"
+  },
+  "mob.singularity_behemoth.hurt": {
+    "sounds": [
+      {
+        "name": "quantumrift:mob/mob_singularity_behemoth_hurt",
+        "pitch": 0.6,
+        "volume": 1.0
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.mob.singularity_behemoth.hurt"
+  },
+  "mob.singularity_behemoth.death": {
+    "sounds": [
+      {
+        "name": "quantumrift:mob/mob_singularity_behemoth_death",
+        "pitch": 0.6,
+        "volume": 1.0
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.mob.singularity_behemoth.death"
+  },
+  "mob.singularity_sentinel.ambient": {
+    "sounds": [
+      {
+        "name": "quantumrift:mob/mob_singularity_sentinel_ambient",
+        "pitch": 0.6,
+        "volume": 0.8
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.mob.singularity_sentinel.ambient"
+  },
+  "mob.singularity_sentinel.hurt": {
+    "sounds": [
+      {
+        "name": "quantumrift:mob/mob_singularity_sentinel_hurt",
+        "pitch": 0.7,
+        "volume": 1.0
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.mob.singularity_sentinel.hurt"
+  },
+  "mob.singularity_sentinel.death": {
+    "sounds": [
+      {
+        "name": "quantumrift:mob/mob_singularity_sentinel_death",
+        "pitch": 0.6,
+        "volume": 1.0
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.mob.singularity_sentinel.death"
+  },
+  "mob.void_phantom.ambient": {
+    "sounds": [
+      {
+        "name": "quantumrift:mob/mob_void_phantom_ambient",
+        "pitch": 0.7,
+        "volume": 0.8
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.mob.void_phantom.ambient"
+  },
+  "mob.void_phantom.hurt": {
+    "sounds": [
+      {
+        "name": "quantumrift:mob/mob_void_phantom_hurt",
+        "pitch": 0.9,
+        "volume": 1.0
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.mob.void_phantom.hurt"
+  },
+  "mob.void_phantom.death": {
+    "sounds": [
+      {
+        "name": "quantumrift:mob/mob_void_phantom_death",
+        "pitch": 0.6,
+        "volume": 1.0
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.mob.void_phantom.death"
+  },
+  "mob.ion_wisp.ambient": {
+    "sounds": [
+      {
+        "name": "quantumrift:mob/mob_ion_wisp_ambient",
+        "pitch": 1.0,
+        "volume": 0.7
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.mob.ion_wisp.ambient"
+  },
+  "mob.ion_wisp.hurt": {
+    "sounds": [
+      {
+        "name": "quantumrift:mob/mob_ion_wisp_hurt",
+        "pitch": 1.0,
+        "volume": 1.0
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.mob.ion_wisp.hurt"
+  },
+  "mob.ion_wisp.death": {
+    "sounds": [
+      {
+        "name": "quantumrift:mob/mob_ion_wisp_death",
+        "pitch": 1.2,
+        "volume": 0.9
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.mob.ion_wisp.death"
+  },
+  "mob.glitch_creeper.ambient": {
+    "sounds": [
+      {
+        "name": "quantumrift:mob/mob_glitch_creeper_ambient",
+        "pitch": 0.9,
+        "volume": 0.7
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.mob.glitch_creeper.ambient"
+  },
+  "mob.glitch_creeper.hurt": {
+    "sounds": [
+      {
+        "name": "quantumrift:mob/mob_glitch_creeper_hurt",
+        "pitch": 0.9,
+        "volume": 1.0
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.mob.glitch_creeper.hurt"
+  },
+  "mob.glitch_creeper.death": {
+    "sounds": [
+      {
+        "name": "quantumrift:mob/mob_glitch_creeper_death",
+        "pitch": 0.8,
+        "volume": 1.0
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.mob.glitch_creeper.death"
+  },
+  "mob.shard_mite.ambient": {
+    "sounds": [
+      {
+        "name": "quantumrift:mob/mob_shard_mite_ambient",
+        "pitch": 1.2,
+        "volume": 0.7
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.mob.shard_mite.ambient"
+  },
+  "mob.shard_mite.hurt": {
+    "sounds": [
+      {
+        "name": "quantumrift:mob/mob_shard_mite_hurt",
+        "pitch": 1.2,
+        "volume": 1.0
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.mob.shard_mite.hurt"
+  },
+  "mob.shard_mite.death": {
+    "sounds": [
+      {
+        "name": "quantumrift:mob/mob_shard_mite_death",
+        "pitch": 1.1,
+        "volume": 1.0
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.mob.shard_mite.death"
+  },
+  "mob.hollow_walker.ambient": {
+    "sounds": [
+      {
+        "name": "quantumrift:mob/mob_hollow_walker_ambient",
+        "pitch": 0.7,
+        "volume": 0.9
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.mob.hollow_walker.ambient"
+  },
+  "mob.hollow_walker.hurt": {
+    "sounds": [
+      {
+        "name": "quantumrift:mob/mob_hollow_walker_hurt",
+        "pitch": 0.7,
+        "volume": 1.0
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.mob.hollow_walker.hurt"
+  },
+  "mob.hollow_walker.death": {
+    "sounds": [
+      {
+        "name": "quantumrift:mob/mob_hollow_walker_death",
+        "pitch": 0.7,
+        "volume": 1.0
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.mob.hollow_walker.death"
+  },
+  "mob.gaunt_watcher.ambient": {
+    "sounds": [
+      {
+        "name": "quantumrift:mob/mob_gaunt_watcher_ambient",
+        "pitch": 0.6,
+        "volume": 0.8
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.mob.gaunt_watcher.ambient"
+  },
+  "mob.gaunt_watcher.hurt": {
+    "sounds": [
+      {
+        "name": "quantumrift:mob/mob_gaunt_watcher_hurt",
+        "pitch": 0.7,
+        "volume": 1.0
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.mob.gaunt_watcher.hurt"
+  },
+  "mob.gaunt_watcher.death": {
+    "sounds": [
+      {
+        "name": "quantumrift:mob/mob_gaunt_watcher_death",
+        "pitch": 0.6,
+        "volume": 1.0
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.mob.gaunt_watcher.death"
+  },
+  "mob.flesh_amalgam.ambient": {
+    "sounds": [
+      {
+        "name": "quantumrift:mob/mob_flesh_amalgam_ambient",
+        "pitch": 0.6,
+        "volume": 1.0
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.mob.flesh_amalgam.ambient"
+  },
+  "mob.flesh_amalgam.hurt": {
+    "sounds": [
+      {
+        "name": "quantumrift:mob/mob_flesh_amalgam_hurt",
+        "pitch": 0.7,
+        "volume": 1.0
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.mob.flesh_amalgam.hurt"
+  },
+  "mob.flesh_amalgam.death": {
+    "sounds": [
+      {
+        "name": "quantumrift:mob/mob_flesh_amalgam_death",
+        "pitch": 0.7,
+        "volume": 1.0
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.mob.flesh_amalgam.death"
+  },
+  "mob.bone_choir.ambient": {
+    "sounds": [
+      {
+        "name": "quantumrift:mob/mob_bone_choir_ambient",
+        "pitch": 0.9,
+        "volume": 0.8
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.mob.bone_choir.ambient"
+  },
+  "mob.bone_choir.hurt": {
+    "sounds": [
+      {
+        "name": "quantumrift:mob/mob_bone_choir_hurt",
+        "pitch": 1.1,
+        "volume": 1.0
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.mob.bone_choir.hurt"
+  },
+  "mob.bone_choir.death": {
+    "sounds": [
+      {
+        "name": "quantumrift:mob/mob_bone_choir_death",
+        "pitch": 0.9,
+        "volume": 1.0
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.mob.bone_choir.death"
+  },
+  "mob.plague_swarm.ambient": {
+    "sounds": [
+      {
+        "name": "quantumrift:mob/mob_plague_swarm_ambient",
+        "pitch": 1.1,
+        "volume": 0.7
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.mob.plague_swarm.ambient"
+  },
+  "mob.plague_swarm.hurt": {
+    "sounds": [
+      {
+        "name": "quantumrift:mob/mob_plague_swarm_hurt",
+        "pitch": 1.1,
+        "volume": 1.0
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.mob.plague_swarm.hurt"
+  },
+  "mob.plague_swarm.death": {
+    "sounds": [
+      {
+        "name": "quantumrift:mob/mob_plague_swarm_death",
+        "pitch": 1.0,
+        "volume": 1.0
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.mob.plague_swarm.death"
+  },
+  "mob.mire_hag.ambient": {
+    "sounds": [
+      {
+        "name": "quantumrift:mob/mob_mire_hag_ambient",
+        "pitch": 0.8,
+        "volume": 0.9
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.mob.mire_hag.ambient"
+  },
+  "mob.mire_hag.hurt": {
+    "sounds": [
+      {
+        "name": "quantumrift:mob/mob_mire_hag_hurt",
+        "pitch": 0.8,
+        "volume": 1.0
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.mob.mire_hag.hurt"
+  },
+  "mob.mire_hag.death": {
+    "sounds": [
+      {
+        "name": "quantumrift:mob/mob_mire_hag_death",
+        "pitch": 0.7,
+        "volume": 1.0
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.mob.mire_hag.death"
+  },
+  "mob.scarecrow_effigy.ambient": {
+    "sounds": [
+      {
+        "name": "quantumrift:mob/mob_scarecrow_effigy_ambient",
+        "pitch": 0.7,
+        "volume": 0.8
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.mob.scarecrow_effigy.ambient"
+  },
+  "mob.scarecrow_effigy.hurt": {
+    "sounds": [
+      {
+        "name": "quantumrift:mob/mob_scarecrow_effigy_hurt",
+        "pitch": 0.8,
+        "volume": 1.0
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.mob.scarecrow_effigy.hurt"
+  },
+  "mob.scarecrow_effigy.death": {
+    "sounds": [
+      {
+        "name": "quantumrift:mob/mob_scarecrow_effigy_death",
+        "pitch": 0.6,
+        "volume": 1.0
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.mob.scarecrow_effigy.death"
+  },
+  "mob.ashen_revenant.ambient": {
+    "sounds": [
+      {
+        "name": "quantumrift:mob/mob_ashen_revenant_ambient",
+        "pitch": 0.8,
+        "volume": 0.9
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.mob.ashen_revenant.ambient"
+  },
+  "mob.ashen_revenant.hurt": {
+    "sounds": [
+      {
+        "name": "quantumrift:mob/mob_ashen_revenant_hurt",
+        "pitch": 0.7,
+        "volume": 1.0
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.mob.ashen_revenant.hurt"
+  },
+  "mob.ashen_revenant.death": {
+    "sounds": [
+      {
+        "name": "quantumrift:mob/mob_ashen_revenant_death",
+        "pitch": 0.7,
+        "volume": 1.0
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.mob.ashen_revenant.death"
+  },
+  "mob.geode_beetle.ambient": {
+    "sounds": [
+      {
+        "name": "quantumrift:mob/mob_geode_beetle_ambient",
+        "pitch": 0.9,
+        "volume": 0.7
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.mob.geode_beetle.ambient"
+  },
+  "mob.geode_beetle.hurt": {
+    "sounds": [
+      {
+        "name": "quantumrift:mob/mob_geode_beetle_hurt",
+        "pitch": 0.9,
+        "volume": 1.0
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.mob.geode_beetle.hurt"
+  },
+  "mob.geode_beetle.death": {
+    "sounds": [
+      {
+        "name": "quantumrift:mob/mob_geode_beetle_death",
+        "pitch": 0.8,
+        "volume": 1.0
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.mob.geode_beetle.death"
+  },
+  "mob.abyss_lurker.ambient": {
+    "sounds": [
+      {
+        "name": "quantumrift:mob/mob_abyss_lurker_ambient",
+        "pitch": 0.7,
+        "volume": 0.9
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.mob.abyss_lurker.ambient"
+  },
+  "mob.abyss_lurker.hurt": {
+    "sounds": [
+      {
+        "name": "quantumrift:mob/mob_abyss_lurker_hurt",
+        "pitch": 0.8,
+        "volume": 1.0
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.mob.abyss_lurker.hurt"
+  },
+  "mob.abyss_lurker.death": {
+    "sounds": [
+      {
+        "name": "quantumrift:mob/mob_abyss_lurker_death",
+        "pitch": 0.7,
+        "volume": 1.0
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.mob.abyss_lurker.death"
+  },
+  "mob.void_sovereign.ambient": {
+    "sounds": [
+      {
+        "name": "quantumrift:mob/mob_void_sovereign_ambient",
+        "pitch": 0.6,
+        "volume": 1.0
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.mob.void_sovereign.ambient"
+  },
+  "mob.void_sovereign.hurt": {
+    "sounds": [
+      {
+        "name": "quantumrift:mob/mob_void_sovereign_hurt",
+        "pitch": 0.55,
+        "volume": 1.0
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.mob.void_sovereign.hurt"
+  },
+  "mob.void_sovereign.death": {
+    "sounds": [
+      {
+        "name": "quantumrift:mob/mob_void_sovereign_death",
+        "pitch": 0.5,
+        "volume": 1.0
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.mob.void_sovereign.death"
+  },
+  "boss.summon": {
+    "sounds": [
+      {
+        "name": "quantumrift:misc/boss_summon",
+        "pitch": 0.8,
+        "volume": 1.0
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.boss.summon"
+  },
+  "boss.pull": {
+    "sounds": [
+      {
+        "name": "quantumrift:misc/boss_pull",
+        "pitch": 0.7,
+        "volume": 1.0
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.boss.pull"
+  },
+  "boss.slam": {
+    "sounds": [
+      {
+        "name": "quantumrift:misc/boss_slam",
+        "pitch": 0.6,
+        "volume": 1.0
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.boss.slam"
+  },
+  "boss.phase": {
+    "sounds": [
+      {
+        "name": "quantumrift:misc/boss_phase",
+        "pitch": 0.7,
+        "volume": 1.0
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.boss.phase"
+  },
+  "block.portal.ambient": {
+    "sounds": [
+      {
+        "name": "quantumrift:misc/block_portal_ambient",
+        "pitch": 1.0,
+        "volume": 0.6
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.block.portal.ambient"
+  },
+  "block.portal.travel": {
+    "sounds": [
+      {
+        "name": "quantumrift:misc/block_portal_travel",
+        "pitch": 0.9,
+        "volume": 1.0
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.block.portal.travel"
+  },
+  "block.gate.rod": {
+    "sounds": [
+      {
+        "name": "quantumrift:misc/block_gate_rod",
+        "pitch": 0.7,
+        "volume": 1.0
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.block.gate.rod"
+  },
+  "block.gate.awaken": {
+    "sounds": [
+      {
+        "name": "quantumrift:misc/block_gate_awaken",
+        "pitch": 0.6,
+        "volume": 1.0
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.block.gate.awaken"
+  },
+  "block.altar.activate": {
+    "sounds": [
+      {
+        "name": "quantumrift:misc/block_altar_activate",
+        "pitch": 0.5,
+        "volume": 1.0
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.block.altar.activate"
+  },
+  "block.machine.hum": {
+    "sounds": [
+      {
+        "name": "quantumrift:misc/block_machine_hum",
+        "pitch": 1.0,
+        "volume": 0.6
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.block.machine.hum"
+  },
+  "block.machine.done": {
+    "sounds": [
+      {
+        "name": "quantumrift:misc/block_machine_done",
+        "pitch": 0.8,
+        "volume": 0.8
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.block.machine.done"
+  },
+  "block.fusion.complete": {
+    "sounds": [
+      {
+        "name": "quantumrift:misc/block_fusion_complete",
+        "pitch": 0.9,
+        "volume": 1.0
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.block.fusion.complete"
+  },
+  "block.collector.pick": {
+    "sounds": [
+      {
+        "name": "quantumrift:misc/block_collector_pick",
+        "pitch": 1.0,
+        "volume": 0.6
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.block.collector.pick"
+  },
+  "block.crystal.chime": {
+    "sounds": [
+      {
+        "name": "quantumrift:misc/block_crystal_chime",
+        "pitch": 1.0,
+        "volume": 0.7
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.block.crystal.chime"
+  },
+  "block.crystal.break": {
+    "sounds": [
+      {
+        "name": "quantumrift:misc/block_crystal_break",
+        "pitch": 0.8,
+        "volume": 0.9
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.block.crystal.break"
+  },
+  "ambient.horror.1": {
+    "sounds": [
+      {
+        "name": "quantumrift:misc/ambient_horror_1",
+        "pitch": 1.0,
+        "volume": 0.9
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.ambient.horror.1"
+  },
+  "ambient.horror.2": {
+    "sounds": [
+      {
+        "name": "quantumrift:misc/ambient_horror_2",
+        "pitch": 1.0,
+        "volume": 0.9
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.ambient.horror.2"
+  },
+  "ambient.horror.3": {
+    "sounds": [
+      {
+        "name": "quantumrift:misc/ambient_horror_3",
+        "pitch": 0.8,
+        "volume": 0.8
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.ambient.horror.3"
+  },
+  "ambient.horror.4": {
+    "sounds": [
+      {
+        "name": "quantumrift:misc/ambient_horror_4",
+        "pitch": 0.5,
+        "volume": 0.6
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.ambient.horror.4"
+  },
+  "ambient.cave.1": {
+    "sounds": [
+      {
+        "name": "quantumrift:misc/ambient_cave_1",
+        "pitch": 0.7,
+        "volume": 0.8
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.ambient.cave.1"
+  },
+  "ambient.cave.2": {
+    "sounds": [
+      {
+        "name": "quantumrift:misc/ambient_cave_2",
+        "pitch": 0.7,
+        "volume": 0.8
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.ambient.cave.2"
+  },
+  "ambient.quantum.1": {
+    "sounds": [
+      {
+        "name": "quantumrift:misc/ambient_quantum_1",
+        "pitch": 1.0,
+        "volume": 0.8
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.ambient.quantum.1"
+  },
+  "ambient.quantum.2": {
+    "sounds": [
+      {
+        "name": "quantumrift:misc/ambient_quantum_2",
+        "pitch": 0.6,
+        "volume": 0.8
+      }
+    ],
+    "subtitle": "subtitles.quantumrift.ambient.quantum.2"
+  }
+}

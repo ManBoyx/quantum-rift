@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "quantumrift:deepslate_omnium_ore",
+    "quantumrift:deepslate_quantite_ore",
+    "quantumrift:end_omnium_ore",
+    "quantumrift:fusion_chamber",
+    "quantumrift:matter_collector",
+    "quantumrift:nether_omnium_ore",
+    "quantumrift:omnium_block",
+    "quantumrift:omnium_ore",
+    "quantumrift:quantite_block",
+    "quantumrift:quantite_ore",
+    "quantumrift:quantum_furnace",
+    "quantumrift:quantum_stone",
+    "quantumrift:quantum_vault",
+    "quantumrift:raw_quantite_block",
+    "quantumrift:rift_crystal"
+  ]
+}

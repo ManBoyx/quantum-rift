@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OTO",
+    "OSO",
+    "OOO"
+  ],
+  "key": {
+    "O": {
+      "item": "quantumrift:omnium_ingot"
+    },
+    "T": {
+      "item": "quantumrift:prismatic_template"
+    },
+    "S": {
+      "item": "quantumrift:singularity_block"
+    }
+  },
+  "result": {
+    "id": "quantumrift:prismatic_template",
+    "count": 2
+  }
+}

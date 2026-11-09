@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_gold_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:gold_ingot"
+          }
+        ]
+      }
+    },
+    "has_upgrade_module_core": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "quantumrift:upgrade_module_core"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "quantumrift:gold_upgrade_module"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_gold_ingot",
+      "has_upgrade_module_core"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "quantumrift:gold_upgrade_module"
+    ]
+  }
+}

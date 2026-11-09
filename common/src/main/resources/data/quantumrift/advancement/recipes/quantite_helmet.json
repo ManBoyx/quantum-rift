@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_quantite_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "quantumrift:quantite_ingot"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "quantumrift:quantite_helmet"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_quantite_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "quantumrift:quantite_helmet"
+    ]
+  }
+}

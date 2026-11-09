@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "quantumrift:block/rift_gate_core_3"
+  }
+}

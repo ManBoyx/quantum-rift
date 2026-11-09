@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_lapis_lazuli": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:lapis_lazuli"
+          }
+        ]
+      }
+    },
+    "has_upgrade_module_core": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "quantumrift:upgrade_module_core"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "quantumrift:lapis_upgrade_module"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_lapis_lazuli",
+      "has_upgrade_module_core"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "quantumrift:lapis_upgrade_module"
+    ]
+  }
+}

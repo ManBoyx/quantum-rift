@@ -1,0 +1,116 @@
+{
+  "temperature": 0.5,
+  "downfall": 0.0,
+  "has_precipitation": false,
+  "effects": {
+    "sky_color": 532526,
+    "fog_color": 1060932,
+    "water_color": 2062986,
+    "water_fog_color": 1060932,
+    "grass_color": 2794907,
+    "foliage_color": 4508080,
+    "particle": {
+      "options": {
+        "type": "minecraft:reverse_portal"
+      },
+      "probability": 0.004
+    },
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2.0
+    }
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "quantumrift:phase_wraith",
+        "weight": 30,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "quantumrift:quantum_stalker",
+        "weight": 25,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "quantumrift:entropy_crawler",
+        "weight": 40,
+        "minCount": 2,
+        "maxCount": 3
+      },
+      {
+        "type": "quantumrift:void_jelly",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "quantumrift:singularity_behemoth",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "quantumrift:singularity_sentinel",
+        "weight": 8,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "quantumrift:void_phantom",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "quantumrift:ion_wisp",
+        "weight": 12,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "quantumrift:glitch_creeper",
+        "weight": 18,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "quantumrift:shard_mite",
+        "weight": 25,
+        "minCount": 2,
+        "maxCount": 4
+      }
+    ],
+    "creature": [],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [
+      "minecraft:amethyst_geode"
+    ],
+    [],
+    [],
+    [],
+    [
+      "quantumrift:singularity_ore",
+      "quantumrift:omnium_ore"
+    ],
+    [],
+    [],
+    [],
+    []
+  ]
+}

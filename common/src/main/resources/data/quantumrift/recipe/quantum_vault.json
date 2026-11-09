@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "QOQ",
+    "OCO",
+    "QOQ"
+  ],
+  "key": {
+    "Q": {
+      "item": "quantumrift:quantite_ingot"
+    },
+    "O": {
+      "item": "quantumrift:omnium_ingot"
+    },
+    "C": {
+      "item": "minecraft:ender_chest"
+    }
+  },
+  "result": {
+    "id": "quantumrift:quantum_vault",
+    "count": 1
+  }
+}

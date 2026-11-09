@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:simple_block",
+  "config": {
+    "to_place": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "data": {
+            "Name": "minecraft:black_candle",
+            "Properties": {
+              "candles": "1",
+              "lit": "true",
+              "waterlogged": "false"
+            }
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "Name": "minecraft:black_candle",
+            "Properties": {
+              "candles": "3",
+              "lit": "true",
+              "waterlogged": "false"
+            }
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "Name": "minecraft:red_candle",
+            "Properties": {
+              "candles": "2",
+              "lit": "true",
+              "waterlogged": "false"
+            }
+          },
+          "weight": 1
+        }
+      ]
+    }
+  }
+}

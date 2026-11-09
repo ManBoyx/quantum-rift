@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_omnium": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "quantumrift:raw_omnium"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "quantumrift:omnium_ingot_from_smelting_raw_omnium"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_omnium"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "quantumrift:omnium_ingot_from_smelting_raw_omnium"
+    ]
+  }
+}

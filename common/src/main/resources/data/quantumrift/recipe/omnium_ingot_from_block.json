@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "quantumrift:omnium_block"
+    }
+  ],
+  "result": {
+    "id": "quantumrift:omnium_ingot",
+    "count": 9
+  }
+}

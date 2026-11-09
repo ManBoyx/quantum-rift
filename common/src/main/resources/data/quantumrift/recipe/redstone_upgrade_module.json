@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " X ",
+    "XCX",
+    " X "
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:redstone"
+    },
+    "C": {
+      "item": "quantumrift:upgrade_module_core"
+    }
+  },
+  "result": {
+    "id": "quantumrift:redstone_upgrade_module",
+    "count": 1
+  }
+}

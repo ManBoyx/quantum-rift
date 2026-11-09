@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "quantumrift:quantite_chestplate",
+    "quantumrift:singularity_chestplate",
+    "quantumrift:prismatic_chestplate"
+  ]
+}

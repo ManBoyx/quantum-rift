@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "facing=north,lit=false": {
+      "model": "quantumrift:block/quantum_furnace"
+    },
+    "facing=north,lit=true": {
+      "model": "quantumrift:block/quantum_furnace_on"
+    },
+    "facing=east,lit=false": {
+      "model": "quantumrift:block/quantum_furnace",
+      "y": 90
+    },
+    "facing=east,lit=true": {
+      "model": "quantumrift:block/quantum_furnace_on",
+      "y": 90
+    },
+    "facing=south,lit=false": {
+      "model": "quantumrift:block/quantum_furnace",
+      "y": 180
+    },
+    "facing=south,lit=true": {
+      "model": "quantumrift:block/quantum_furnace_on",
+      "y": 180
+    },
+    "facing=west,lit=false": {
+      "model": "quantumrift:block/quantum_furnace",
+      "y": 270
+    },
+    "facing=west,lit=true": {
+      "model": "quantumrift:block/quantum_furnace_on",
+      "y": 270
+    }
+  }
+}

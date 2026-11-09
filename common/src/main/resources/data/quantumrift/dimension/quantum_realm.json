@@ -1,0 +1,102 @@
+{
+  "type": "quantumrift:quantum_realm",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "quantumrift:quantum",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "quantumrift:quantum_shards",
+          "parameters": {
+            "temperature": [
+              -2,
+              -0.3
+            ],
+            "humidity": [
+              -2,
+              2
+            ],
+            "continentalness": [
+              -2,
+              2
+            ],
+            "erosion": [
+              -2,
+              2
+            ],
+            "weirdness": [
+              -2,
+              2
+            ],
+            "depth": [
+              -2,
+              2
+            ],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "quantumrift:entropy_wastes",
+          "parameters": {
+            "temperature": [
+              -0.3,
+              0.3
+            ],
+            "humidity": [
+              -2,
+              2
+            ],
+            "continentalness": [
+              -2,
+              2
+            ],
+            "erosion": [
+              -2,
+              2
+            ],
+            "weirdness": [
+              -2,
+              2
+            ],
+            "depth": [
+              -2,
+              2
+            ],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "quantumrift:void_bloom",
+          "parameters": {
+            "temperature": [
+              0.3,
+              2
+            ],
+            "humidity": [
+              -2,
+              2
+            ],
+            "continentalness": [
+              -2,
+              2
+            ],
+            "erosion": [
+              -2,
+              2
+            ],
+            "weirdness": [
+              -2,
+              2
+            ],
+            "depth": [
+              -2,
+              2
+            ],
+            "offset": 0.0
+          }
+        }
+      ]
+    }
+  }
+}

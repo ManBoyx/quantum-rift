@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_emerald": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:emerald"
+          }
+        ]
+      }
+    },
+    "has_upgrade_module_core": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "quantumrift:upgrade_module_core"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "quantumrift:emerald_upgrade_module"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_emerald",
+      "has_upgrade_module_core"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "quantumrift:emerald_upgrade_module"
+    ]
+  }
+}

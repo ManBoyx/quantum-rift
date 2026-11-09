@@ -1,0 +1,65 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_quantite_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "quantumrift:quantite_ingot"
+          }
+        ]
+      }
+    },
+    "has_ender_eye": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:ender_eye"
+          }
+        ]
+      }
+    },
+    "has_omnium_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "quantumrift:omnium_ingot"
+          }
+        ]
+      }
+    },
+    "has_hopper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:hopper"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "quantumrift:matter_collector"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_quantite_ingot",
+      "has_ender_eye",
+      "has_omnium_ingot",
+      "has_hopper"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "quantumrift:matter_collector"
+    ]
+  }
+}

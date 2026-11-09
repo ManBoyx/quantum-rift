@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X",
+    "S",
+    "S"
+  ],
+  "key": {
+    "X": {
+      "item": "quantumrift:quantite_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "quantumrift:quantite_shovel",
+    "count": 1
+  }
+}

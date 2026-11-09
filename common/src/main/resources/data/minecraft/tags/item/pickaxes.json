@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "quantumrift:quantite_pickaxe",
+    "quantumrift:singularity_pickaxe",
+    "quantumrift:prismatic_pickaxe"
+  ]
+}

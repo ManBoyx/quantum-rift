@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_coal_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:coal_block"
+          }
+        ]
+      }
+    },
+    "has_omnium_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "quantumrift:omnium_ingot"
+          }
+        ]
+      }
+    },
+    "has_quantite_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "quantumrift:quantite_ingot"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "quantumrift:quantinium_coal"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_coal_block",
+      "has_omnium_ingot",
+      "has_quantite_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "quantumrift:quantinium_coal"
+    ]
+  }
+}

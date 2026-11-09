@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SNS",
+    "EOE",
+    "SNS"
+  ],
+  "key": {
+    "S": {
+      "item": "quantumrift:singularity_shard"
+    },
+    "N": {
+      "item": "minecraft:nether_star"
+    },
+    "E": {
+      "item": "minecraft:ender_eye"
+    },
+    "O": {
+      "item": "quantumrift:omnium_ingot"
+    }
+  },
+  "result": {
+    "id": "quantumrift:sovereign_sigil",
+    "count": 1
+  }
+}

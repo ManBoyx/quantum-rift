@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": {
+    "item": "quantumrift:omnium_ore"
+  },
+  "result": {
+    "id": "quantumrift:omnium_ingot"
+  },
+  "experience": 1.2,
+  "cookingtime": 200
+}

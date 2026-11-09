@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "rods=0": {
+      "model": "quantumrift:block/rift_gate_core_0"
+    },
+    "rods=1": {
+      "model": "quantumrift:block/rift_gate_core_1"
+    },
+    "rods=2": {
+      "model": "quantumrift:block/rift_gate_core_2"
+    },
+    "rods=3": {
+      "model": "quantumrift:block/rift_gate_core_3"
+    }
+  }
+}

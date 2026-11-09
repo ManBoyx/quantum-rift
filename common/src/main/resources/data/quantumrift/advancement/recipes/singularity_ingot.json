@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_singularity_shard": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "quantumrift:singularity_shard"
+          }
+        ]
+      }
+    },
+    "has_netherite_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_ingot"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "quantumrift:singularity_ingot"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_singularity_shard",
+      "has_netherite_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "quantumrift:singularity_ingot"
+    ]
+  }
+}

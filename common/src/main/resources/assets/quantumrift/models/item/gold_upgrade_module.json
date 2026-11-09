@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "quantumrift:item/gold_upgrade_module"
+  }
+}

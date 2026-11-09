@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_prismatic_template": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "quantumrift:prismatic_template"
+          }
+        ]
+      }
+    },
+    "has_singularity_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "quantumrift:singularity_sword"
+          }
+        ]
+      }
+    },
+    "has_omnium_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "quantumrift:omnium_ingot"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "quantumrift:prismatic_sword_smithing"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_prismatic_template",
+      "has_singularity_sword",
+      "has_omnium_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "quantumrift:prismatic_sword_smithing"
+    ]
+  }
+}

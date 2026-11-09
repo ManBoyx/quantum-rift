@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "quantumrift:prismatic_template"
+  },
+  "base": {
+    "item": "quantumrift:singularity_leggings"
+  },
+  "addition": {
+    "item": "quantumrift:omnium_ingot"
+  },
+  "result": {
+    "id": "quantumrift:prismatic_leggings"
+  }
+}

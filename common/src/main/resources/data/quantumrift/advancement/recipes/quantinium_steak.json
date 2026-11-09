@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cooked_beef": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cooked_beef"
+          }
+        ]
+      }
+    },
+    "has_omnium_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "quantumrift:omnium_ingot"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "quantumrift:quantinium_steak"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_cooked_beef",
+      "has_omnium_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "quantumrift:quantinium_steak"
+    ]
+  }
+}

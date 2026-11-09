@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "quantumrift:block/quantum_vault_top",
+    "bottom": "quantumrift:block/quantum_vault_bottom",
+    "side": "quantumrift:block/quantum_vault_side"
+  }
+}

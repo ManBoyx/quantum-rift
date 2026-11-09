@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": {
+    "item": "quantumrift:deepslate_quantite_ore"
+  },
+  "result": {
+    "id": "quantumrift:quantite_ingot"
+  },
+  "experience": 1.0,
+  "cookingtime": 200
+}

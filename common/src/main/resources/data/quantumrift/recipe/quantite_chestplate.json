@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X X",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "quantumrift:quantite_ingot"
+    }
+  },
+  "result": {
+    "id": "quantumrift:quantite_chestplate",
+    "count": 1
+  }
+}

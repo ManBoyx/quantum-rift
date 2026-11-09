@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:coal_block"
+    },
+    {
+      "item": "minecraft:coal_block"
+    },
+    {
+      "item": "minecraft:coal_block"
+    },
+    {
+      "item": "minecraft:coal_block"
+    },
+    {
+      "item": "quantumrift:omnium_ingot"
+    },
+    {
+      "item": "quantumrift:quantite_ingot"
+    }
+  ],
+  "result": {
+    "id": "quantumrift:quantinium_coal",
+    "count": 1
+  }
+}

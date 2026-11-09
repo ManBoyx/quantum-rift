@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "quantumrift:quantite_helmet",
+    "quantumrift:singularity_helmet",
+    "quantumrift:prismatic_helmet",
+    "quantumrift:quantite_chestplate",
+    "quantumrift:singularity_chestplate",
+    "quantumrift:prismatic_chestplate",
+    "quantumrift:quantite_leggings",
+    "quantumrift:singularity_leggings",
+    "quantumrift:prismatic_leggings",
+    "quantumrift:quantite_boots",
+    "quantumrift:singularity_boots",
+    "quantumrift:prismatic_boots"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X X",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "quantumrift:singularity_ingot"
+    }
+  },
+  "result": {
+    "id": "quantumrift:singularity_boots",
+    "count": 1
+  }
+}

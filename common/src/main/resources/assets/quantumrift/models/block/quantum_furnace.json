@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "quantumrift:block/quantum_furnace_top",
+    "front": "quantumrift:block/quantum_furnace_front",
+    "side": "quantumrift:block/quantum_furnace_side"
+  }
+}

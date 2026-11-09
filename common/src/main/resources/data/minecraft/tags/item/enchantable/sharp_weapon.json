@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "quantumrift:quantite_sword",
+    "quantumrift:singularity_sword",
+    "quantumrift:prismatic_sword",
+    "quantumrift:quantite_axe",
+    "quantumrift:singularity_axe",
+    "quantumrift:prismatic_axe"
+  ]
+}

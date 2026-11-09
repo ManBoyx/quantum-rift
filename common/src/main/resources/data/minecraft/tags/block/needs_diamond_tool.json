@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "quantumrift:rift_gate_core",
+    "quantumrift:singularity_block",
+    "quantumrift:singularity_ore"
+  ]
+}

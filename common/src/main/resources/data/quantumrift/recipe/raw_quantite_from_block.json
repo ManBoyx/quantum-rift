@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "quantumrift:raw_quantite_block"
+    }
+  ],
+  "result": {
+    "id": "quantumrift:raw_quantite",
+    "count": 9
+  }
+}

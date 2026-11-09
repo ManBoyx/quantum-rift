@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "quantumrift:singularity_block"
+    }
+  ],
+  "result": {
+    "id": "quantumrift:singularity_ingot",
+    "count": 9
+  }
+}

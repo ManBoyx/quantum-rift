@@ -1,0 +1,188 @@
+{
+  "temperature": 0.5,
+  "downfall": 0.6,
+  "has_precipitation": true,
+  "effects": {
+    "fog_color": 2830136,
+    "foliage_color": 10520722,
+    "grass_color": 9083552,
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2.0,
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000
+    },
+    "music": {
+      "sound": "quantumrift:ambient.horror.4",
+      "min_delay": 9000,
+      "max_delay": 18000,
+      "replace_current_music": true
+    },
+    "sky_color": 6121072,
+    "water_color": 2832976,
+    "water_fog_color": 2830136,
+    "mood": {
+      "sound": "quantumrift:ambient.horror.1",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2.0
+    },
+    "additions_sound": {
+      "sound": "quantumrift:ambient.horror.2",
+      "tick_chance": 0.0016
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:ash"
+      },
+      "probability": 0.012
+    }
+  },
+  "spawners": {
+    "ambient": [],
+    "axolotls": [],
+    "creature": [],
+    "misc": [],
+    "monster": [
+      {
+        "type": "quantumrift:hollow_walker",
+        "weight": 30,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "quantumrift:gaunt_watcher",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "quantumrift:flesh_amalgam",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "quantumrift:bone_choir",
+        "weight": 20,
+        "minCount": 2,
+        "maxCount": 4
+      },
+      {
+        "type": "quantumrift:plague_swarm",
+        "weight": 14,
+        "minCount": 3,
+        "maxCount": 6
+      },
+      {
+        "type": "quantumrift:mire_hag",
+        "weight": 7,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "quantumrift:scarecrow_effigy",
+        "weight": 9,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "quantumrift:ashen_revenant",
+        "weight": 6,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [],
+    [
+      "minecraft:lake_lava_underground",
+      "minecraft:lake_lava_surface"
+    ],
+    [
+      "minecraft:amethyst_geode"
+    ],
+    [
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
+    ],
+    [
+      "minecraft:ice_spike",
+      "minecraft:ice_patch"
+    ],
+    [],
+    [
+      "minecraft:ore_dirt",
+      "minecraft:ore_gravel",
+      "minecraft:ore_granite_upper",
+      "minecraft:ore_granite_lower",
+      "minecraft:ore_diorite_upper",
+      "minecraft:ore_diorite_lower",
+      "minecraft:ore_andesite_upper",
+      "minecraft:ore_andesite_lower",
+      "minecraft:ore_tuff",
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
+      "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond_medium",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried",
+      "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
+      "minecraft:ore_copper",
+      "minecraft:underwater_magma",
+      "minecraft:disk_sand",
+      "minecraft:disk_clay",
+      "minecraft:disk_gravel",
+      "minecraft:ore_emerald"
+    ],
+    [
+      "minecraft:ore_infested"
+    ],
+    [
+      "minecraft:spring_water",
+      "minecraft:spring_lava"
+    ],
+    [
+      "minecraft:patch_large_fern",
+      "minecraft:patch_tall_grass_2",
+      "minecraft:patch_grass_plain",
+      "minecraft:trees_snowy",
+      "minecraft:trees_taiga",
+      "minecraft:patch_grass_badlands",
+      "minecraft:patch_grass_taiga_2",
+      "minecraft:brown_mushroom_taiga",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "minecraft:red_mushroom_taiga",
+      "minecraft:patch_sugar_cane",
+      "minecraft:patch_pumpkin",
+      "quantumrift:horror_dead_tree",
+      "quantumrift:horror_cobwebs",
+      "quantumrift:horror_bones",
+      "quantumrift:horror_candles"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ]
+}

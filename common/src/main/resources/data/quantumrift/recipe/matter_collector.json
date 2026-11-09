@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "QEQ",
+    "OHO",
+    "QQQ"
+  ],
+  "key": {
+    "Q": {
+      "item": "quantumrift:quantite_ingot"
+    },
+    "E": {
+      "item": "minecraft:ender_eye"
+    },
+    "O": {
+      "item": "quantumrift:omnium_ingot"
+    },
+    "H": {
+      "item": "minecraft:hopper"
+    }
+  },
+  "result": {
+    "id": "quantumrift:matter_collector",
+    "count": 1
+  }
+}

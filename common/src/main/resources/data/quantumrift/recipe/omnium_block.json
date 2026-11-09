@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "quantumrift:omnium_ingot"
+    }
+  },
+  "result": {
+    "id": "quantumrift:omnium_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "quantumrift:block/fusion_chamber_top",
+    "bottom": "quantumrift:block/fusion_chamber_bottom",
+    "side": "quantumrift:block/fusion_chamber_side"
+  }
+}

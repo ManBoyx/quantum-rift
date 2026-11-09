@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_quantite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "quantumrift:raw_quantite"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "quantumrift:raw_quantite_block"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_quantite"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "quantumrift:raw_quantite_block"
+    ]
+  }
+}
